@@ -1,0 +1,61 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "user--user",
+        "id": "46eba488-525e-4e59-b5cb-e542371b403b",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/46eba488-525e-4e59-b5cb-e542371b403b"
+            }
+        },
+        "attributes": {
+            "display_name": "admin",
+            "drupal_internal__uid": 1,
+            "langcode": "en",
+            "preferred_langcode": "en",
+            "preferred_admin_langcode": null,
+            "name": "admin",
+            "mail": "admin@example.com",
+            "timezone": "UTC",
+            "status": true,
+            "created": "2024-04-05T21:30:20+00:00",
+            "changed": "2024-04-05T21:30:35+00:00",
+            "access": "2024-04-12T08:52:09+00:00",
+            "login": "2024-04-12T08:28:45+00:00",
+            "init": "admin@example.com",
+            "default_langcode": true,
+            "path": {
+                "alias": null,
+                "pid": null,
+                "langcode": "en"
+            }
+        },
+        "relationships": {
+            "roles": {
+                "data": [],
+                "links": {
+                    "related": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/46eba488-525e-4e59-b5cb-e542371b403b\/roles"
+                    },
+                    "self": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/46eba488-525e-4e59-b5cb-e542371b403b\/relationships\/roles"
+                    }
+                }
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/revision_uid?resourceVersion=id%3A5"
+        }
+    }
+}

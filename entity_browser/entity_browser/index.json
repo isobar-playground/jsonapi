@@ -1,0 +1,141 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "entity_browser--entity_browser",
+            "id": "bd0a4eb0-5778-4534-b5e9-a3e3301d335d",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_browser\/entity_browser\/bd0a4eb0-5778-4534-b5e9-a3e3301d335d"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "views.view.media_entity_browser"
+                    ],
+                    "module": [
+                        "entity_browser_entity_form",
+                        "views"
+                    ]
+                },
+                "drupal_internal__name": "media_entity_browser",
+                "label": "Media Entity Browser",
+                "display": "iframe",
+                "display_configuration": {
+                    "width": "1070",
+                    "height": "500",
+                    "link_text": "Select media",
+                    "auto_open": true
+                },
+                "selection_display": "no_display",
+                "selection_display_configuration": [],
+                "widget_selector": "tabs",
+                "widget_selector_configuration": [],
+                "widgets": {
+                    "6586703a-6976-4124-8a49-cbb07ceaa3b1": {
+                        "settings": {
+                            "submit_text": "Select media",
+                            "auto_select": false,
+                            "view": "media_entity_browser",
+                            "view_display": "media_browser_all"
+                        },
+                        "uuid": "6586703a-6976-4124-8a49-cbb07ceaa3b1",
+                        "weight": -9,
+                        "label": "Choose existing media",
+                        "id": "view"
+                    },
+                    "ecb3940b-e53b-4bc5-acb5-930d8780ea2f": {
+                        "settings": {
+                            "submit_text": "Save image",
+                            "entity_type": "media",
+                            "bundle": "image",
+                            "form_mode": "default"
+                        },
+                        "uuid": "ecb3940b-e53b-4bc5-acb5-930d8780ea2f",
+                        "weight": -10,
+                        "label": "Upload new image",
+                        "id": "entity_form"
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_browser--entity_browser",
+            "id": "17f07152-4cdf-45b2-b878-587b41d85517",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_browser\/entity_browser\/17f07152-4cdf-45b2-b878-587b41d85517"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "views.view.media_entity_browser"
+                    ],
+                    "module": [
+                        "entity_browser_entity_form",
+                        "views"
+                    ]
+                },
+                "drupal_internal__name": "media_entity_browser_modal",
+                "label": "Media Entity Browser (Modal)",
+                "display": "modal",
+                "display_configuration": {
+                    "width": "1070",
+                    "height": "500",
+                    "link_text": "Select media",
+                    "auto_open": true
+                },
+                "selection_display": "no_display",
+                "selection_display_configuration": [],
+                "widget_selector": "tabs",
+                "widget_selector_configuration": [],
+                "widgets": {
+                    "fc729026-c85f-4561-acd5-38d4082b69fb": {
+                        "settings": {
+                            "submit_text": "Select media",
+                            "auto_select": false,
+                            "view": "media_entity_browser",
+                            "view_display": "media_browser_all"
+                        },
+                        "uuid": "fc729026-c85f-4561-acd5-38d4082b69fb",
+                        "weight": -9,
+                        "label": "Choose existing media",
+                        "id": "view"
+                    },
+                    "9769d4e4-1f9c-4313-8b01-fe8cff8aa5a1": {
+                        "settings": {
+                            "submit_text": "Save image",
+                            "entity_type": "media",
+                            "bundle": "image",
+                            "form_mode": "default"
+                        },
+                        "uuid": "9769d4e4-1f9c-4313-8b01-fe8cff8aa5a1",
+                        "weight": -10,
+                        "label": "Upload new image",
+                        "id": "entity_form"
+                    }
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_browser\/entity_browser"
+        }
+    }
+}

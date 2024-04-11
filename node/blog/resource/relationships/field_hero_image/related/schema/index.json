@@ -1,0 +1,31 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/resource\/relationships\/field_hero_image\/related\/schema",
+    "title": "Hero image media item",
+    "allOf": [
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema"
+        },
+        {
+            "if": {
+                "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/success"
+            },
+            "then": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "$ref": "#\/definitions\/data"
+                    }
+                },
+                "required": [
+                    "data"
+                ]
+            }
+        }
+    ],
+    "definitions": {
+        "data": {
+            "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/schema"
+        }
+    }
+}

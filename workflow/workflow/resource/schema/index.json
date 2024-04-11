@@ -1,0 +1,66 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/workflow\/workflow\/resource\/schema",
+    "title": "Workflow",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "workflow--workflow"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "label": {
+                    "title": "label"
+                },
+                "workflow_type": {
+                    "type": "string",
+                    "title": "workflow_type"
+                },
+                "type_settings": {
+                    "title": "type_settings"
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

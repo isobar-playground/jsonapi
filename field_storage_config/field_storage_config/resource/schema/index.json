@@ -1,0 +1,79 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/field_storage_config\/field_storage_config\/resource\/schema",
+    "title": "Field storage",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "field_storage_config--field_storage_config"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "title": "third_party_settings"
+                },
+                "field_name": {
+                    "title": "field_name"
+                },
+                "entity_type": {
+                    "title": "entity_type"
+                },
+                "field_storage_config_type": {
+                    "title": "field_storage_config_type"
+                },
+                "settings": {
+                    "title": "settings"
+                },
+                "module": {
+                    "title": "module"
+                },
+                "locked": {
+                    "title": "locked"
+                },
+                "cardinality": {
+                    "title": "cardinality"
+                },
+                "translatable": {
+                    "title": "translatable"
+                },
+                "indexes": {
+                    "title": "indexes"
+                },
+                "persist_with_no_fields": {
+                    "title": "persist_with_no_fields"
+                },
+                "custom_storage": {
+                    "title": "custom_storage"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

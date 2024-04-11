@@ -1,0 +1,40 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "action--action",
+        "id": "85171d39-8c6b-4023-bb22-70f6a23e7e01",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/85171d39-8c6b-4023-bb22-70f6a23e7e01"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "node"
+                ]
+            },
+            "drupal_internal__id": "node_unpromote_action",
+            "label": "Remove content from front page",
+            "action_type": "node",
+            "plugin": "node_unpromote_action",
+            "configuration": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/85171d39-8c6b-4023-bb22-70f6a23e7e01"
+        }
+    }
+}

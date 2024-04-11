@@ -1,0 +1,725 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "block--block",
+            "id": "c29740a8-337c-47a8-95ae-d4fae2b497b5",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/c29740a8-337c-47a8-95ae-d4fae2b497b5"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_breadcrumbs",
+                "theme": "claro",
+                "region": "breadcrumb",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_breadcrumb_block",
+                "settings": {
+                    "id": "system_breadcrumb_block",
+                    "label": "Breadcrumbs",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "4e15cf9b-7973-4d1f-8584-136c4662ce7f",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/4e15cf9b-7973-4d1f-8584-136c4662ce7f"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_content",
+                "theme": "claro",
+                "region": "content",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_main_block",
+                "settings": {
+                    "id": "system_main_block",
+                    "label": "Main page content",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "2903269f-64c8-4be7-b2e6-2ffe4bbe3dba",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/2903269f-64c8-4be7-b2e6-2ffe4bbe3dba"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_local_actions",
+                "theme": "claro",
+                "region": "content",
+                "weight": -10,
+                "provider": null,
+                "plugin": "local_actions_block",
+                "settings": {
+                    "id": "local_actions_block",
+                    "label": "Primary admin actions",
+                    "label_display": "0",
+                    "provider": "core"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "82314e9b-d56d-4aec-9111-aced6f9c75b1",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/82314e9b-d56d-4aec-9111-aced6f9c75b1"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_messages",
+                "theme": "claro",
+                "region": "highlighted",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_messages_block",
+                "settings": {
+                    "id": "system_messages_block",
+                    "label": "Status messages",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "4163295c-e7c4-4536-a8d4-0b45c3e2476b",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/4163295c-e7c4-4536-a8d4-0b45c3e2476b"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_page_title",
+                "theme": "claro",
+                "region": "header",
+                "weight": -30,
+                "provider": null,
+                "plugin": "page_title_block",
+                "settings": {
+                    "id": "page_title_block",
+                    "label": "Page title",
+                    "label_display": "0",
+                    "provider": "core"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "750bbab4-b092-4485-b243-8b30f932fdb5",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/750bbab4-b092-4485-b243-8b30f932fdb5"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_primary_local_tasks",
+                "theme": "claro",
+                "region": "header",
+                "weight": 0,
+                "provider": null,
+                "plugin": "local_tasks_block",
+                "settings": {
+                    "id": "local_tasks_block",
+                    "label": "Primary tabs",
+                    "label_display": "0",
+                    "provider": "core",
+                    "primary": true,
+                    "secondary": false
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "32fc00ee-04d0-4ee2-854d-9ccbd250a204",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/32fc00ee-04d0-4ee2-854d-9ccbd250a204"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "claro"
+                    ]
+                },
+                "drupal_internal__id": "claro_secondary_local_tasks",
+                "theme": "claro",
+                "region": "pre_content",
+                "weight": 0,
+                "provider": null,
+                "plugin": "local_tasks_block",
+                "settings": {
+                    "id": "local_tasks_block",
+                    "label": "Secondary tabs",
+                    "label_display": "0",
+                    "provider": "core",
+                    "primary": false,
+                    "secondary": true
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "9c2849ce-e8c7-4ade-b067-cf147a6879af",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/9c2849ce-e8c7-4ade-b067-cf147a6879af"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_breadcrumbs",
+                "theme": "gin",
+                "region": "breadcrumb",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_breadcrumb_block",
+                "settings": {
+                    "id": "system_breadcrumb_block",
+                    "label": "Breadcrumbs",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "92e4a30d-04e9-4469-ac7a-24264b4797dc",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/92e4a30d-04e9-4469-ac7a-24264b4797dc"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_content",
+                "theme": "gin",
+                "region": "content",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_main_block",
+                "settings": {
+                    "id": "system_main_block",
+                    "label": "Main page content",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "6b4bf04c-5171-4f14-9e93-1a3bee975622",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/6b4bf04c-5171-4f14-9e93-1a3bee975622"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_local_actions",
+                "theme": "gin",
+                "region": "content",
+                "weight": -10,
+                "provider": null,
+                "plugin": "local_actions_block",
+                "settings": {
+                    "id": "local_actions_block",
+                    "label": "Primary admin actions",
+                    "label_display": "0",
+                    "provider": "core"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "356cea2a-1150-4170-a508-9c01fc38e66f",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/356cea2a-1150-4170-a508-9c01fc38e66f"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_messages",
+                "theme": "gin",
+                "region": "highlighted",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_messages_block",
+                "settings": {
+                    "id": "system_messages_block",
+                    "label": "Status messages",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "c87483fa-208a-46d5-a2df-59c999ea2a4a",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/c87483fa-208a-46d5-a2df-59c999ea2a4a"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_page_title",
+                "theme": "gin",
+                "region": "header",
+                "weight": -30,
+                "provider": null,
+                "plugin": "page_title_block",
+                "settings": {
+                    "id": "page_title_block",
+                    "label": "Page title",
+                    "label_display": "0",
+                    "provider": "core"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "687e493b-17a5-4e3f-b84b-a7798898ac64",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/687e493b-17a5-4e3f-b84b-a7798898ac64"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_primary_local_tasks",
+                "theme": "gin",
+                "region": "header",
+                "weight": 0,
+                "provider": null,
+                "plugin": "local_tasks_block",
+                "settings": {
+                    "id": "local_tasks_block",
+                    "label": "Primary tabs",
+                    "label_display": "0",
+                    "provider": "core",
+                    "primary": true,
+                    "secondary": false
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "afe26ad5-9f1f-4929-bca9-e0d0d3eb1111",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/afe26ad5-9f1f-4929-bca9-e0d0d3eb1111"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "gin"
+                    ]
+                },
+                "drupal_internal__id": "gin_secondary_local_tasks",
+                "theme": "gin",
+                "region": "pre_content",
+                "weight": 0,
+                "provider": null,
+                "plugin": "local_tasks_block",
+                "settings": {
+                    "id": "local_tasks_block",
+                    "label": "Secondary tabs",
+                    "label_display": "0",
+                    "provider": "core",
+                    "primary": false,
+                    "secondary": true
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "a2e2819d-42ee-4de7-bd4f-6011e1b73e81",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/a2e2819d-42ee-4de7-bd4f-6011e1b73e81"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "system.menu.admin"
+                    ],
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_admin",
+                "theme": "stark",
+                "region": "sidebar_first",
+                "weight": 1,
+                "provider": null,
+                "plugin": "system_menu_block:admin",
+                "settings": {
+                    "id": "system_menu_block:admin",
+                    "label": "Administration",
+                    "label_display": "visible",
+                    "provider": "system",
+                    "level": 1,
+                    "depth": 0,
+                    "expand_all_items": false
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "4a031574-75f0-46f5-84cd-42933351bec7",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/4a031574-75f0-46f5-84cd-42933351bec7"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_branding",
+                "theme": "stark",
+                "region": "header",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_branding_block",
+                "settings": {
+                    "id": "system_branding_block",
+                    "label": "Site branding",
+                    "label_display": "0",
+                    "provider": "system",
+                    "use_site_logo": true,
+                    "use_site_name": true,
+                    "use_site_slogan": true
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "046410e8-ebc3-4479-b4c5-f7e213eb44b4",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/046410e8-ebc3-4479-b4c5-f7e213eb44b4"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_local_actions",
+                "theme": "stark",
+                "region": "content",
+                "weight": -10,
+                "provider": null,
+                "plugin": "local_actions_block",
+                "settings": {
+                    "id": "local_actions_block",
+                    "label": "Primary admin actions",
+                    "label_display": "0",
+                    "provider": "core"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "fd22da2b-421c-4fce-8449-09dac298bddf",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/fd22da2b-421c-4fce-8449-09dac298bddf"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_local_tasks",
+                "theme": "stark",
+                "region": "content",
+                "weight": -20,
+                "provider": null,
+                "plugin": "local_tasks_block",
+                "settings": {
+                    "id": "local_tasks_block",
+                    "label": "Tabs",
+                    "label_display": "0",
+                    "provider": "core",
+                    "primary": true,
+                    "secondary": true
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "93e4838c-2299-41b8-9993-73b31195b14a",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/93e4838c-2299-41b8-9993-73b31195b14a"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_messages",
+                "theme": "stark",
+                "region": "highlighted",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_messages_block",
+                "settings": {
+                    "id": "system_messages_block",
+                    "label": "Status messages",
+                    "label_display": "0",
+                    "provider": "system"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "86e8a814-9d24-43e4-8217-ac3db5e0212d",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/86e8a814-9d24-43e4-8217-ac3db5e0212d"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_page_title",
+                "theme": "stark",
+                "region": "content",
+                "weight": -30,
+                "provider": null,
+                "plugin": "page_title_block",
+                "settings": {
+                    "id": "page_title_block",
+                    "label": "Page title",
+                    "label_display": "0",
+                    "provider": "core"
+                },
+                "visibility": []
+            }
+        },
+        {
+            "type": "block--block",
+            "id": "e9ef9bf6-c2a6-4e19-82d8-b323de793511",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/e9ef9bf6-c2a6-4e19-82d8-b323de793511"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "system.menu.tools"
+                    ],
+                    "module": [
+                        "system"
+                    ],
+                    "theme": [
+                        "stark"
+                    ]
+                },
+                "drupal_internal__id": "stark_tools",
+                "theme": "stark",
+                "region": "sidebar_first",
+                "weight": 0,
+                "provider": null,
+                "plugin": "system_menu_block:tools",
+                "settings": {
+                    "id": "system_menu_block:tools",
+                    "label": "Tools",
+                    "label_display": "visible",
+                    "provider": "system",
+                    "level": 1,
+                    "depth": 0,
+                    "expand_all_items": false
+                },
+                "visibility": []
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block"
+        }
+    }
+}

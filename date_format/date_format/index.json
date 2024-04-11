@@ -1,0 +1,217 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "date_format--date_format",
+            "id": "32d7f470-2129-4384-8c75-669b223f54c5",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/32d7f470-2129-4384-8c75-669b223f54c5"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "fallback",
+                "label": "Fallback date format",
+                "locked": true,
+                "pattern": "D, m\/d\/Y - H:i"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "4c77955c-1a4f-4dd3-814e-70f4b61816ae",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/4c77955c-1a4f-4dd3-814e-70f4b61816ae"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_datetime",
+                "label": "HTML Datetime",
+                "locked": true,
+                "pattern": "Y-m-d\\TH:i:sO"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "7bc5bd34-37bf-4da2-bdf8-fee874de21c0",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/7bc5bd34-37bf-4da2-bdf8-fee874de21c0"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_month",
+                "label": "HTML Month",
+                "locked": true,
+                "pattern": "Y-m"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "0a85e5b8-37d4-47b0-b567-57480a4694d7",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/0a85e5b8-37d4-47b0-b567-57480a4694d7"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_week",
+                "label": "HTML Week",
+                "locked": true,
+                "pattern": "Y-\\WW"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "255c24c8-54c7-4d91-a6cc-f8e61d0d4513",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/255c24c8-54c7-4d91-a6cc-f8e61d0d4513"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_year",
+                "label": "HTML Year",
+                "locked": true,
+                "pattern": "Y"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "91197491-5c69-4d90-a9f2-0f6eadf40142",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/91197491-5c69-4d90-a9f2-0f6eadf40142"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_yearless_date",
+                "label": "HTML Yearless date",
+                "locked": true,
+                "pattern": "m-d"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "ad48d768-a157-46ca-92d8-a161008702be",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/ad48d768-a157-46ca-92d8-a161008702be"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "long",
+                "label": "Default long date",
+                "locked": false,
+                "pattern": "l, F j, Y - H:i"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "e0242029-28e6-4fb4-896f-f0a306cedad2",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/e0242029-28e6-4fb4-896f-f0a306cedad2"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "medium",
+                "label": "Default medium date",
+                "locked": false,
+                "pattern": "D, m\/d\/Y - H:i"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "777d5be5-d901-4a1b-9604-819c1603eb33",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/777d5be5-d901-4a1b-9604-819c1603eb33"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "short",
+                "label": "Default short date",
+                "locked": false,
+                "pattern": "m\/d\/Y - H:i"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "4db8a6c6-582d-4bba-9a16-4181a45e1bdc",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/4db8a6c6-582d-4bba-9a16-4181a45e1bdc"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_date",
+                "label": "HTML Date",
+                "locked": true,
+                "pattern": "Y-m-d"
+            }
+        },
+        {
+            "type": "date_format--date_format",
+            "id": "65f011f0-5bf0-4ef1-b0f8-99cce50e4cd2",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/65f011f0-5bf0-4ef1-b0f8-99cce50e4cd2"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "html_time",
+                "label": "HTML Time",
+                "locked": true,
+                "pattern": "H:i:s"
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format"
+        }
+    }
+}

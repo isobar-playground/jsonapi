@@ -1,0 +1,45 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "action--action",
+        "id": "49996a88-6d3e-491e-92e1-b7e3a8af51b0",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/49996a88-6d3e-491e-92e1-b7e3a8af51b0"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "pathauto"
+                ],
+                "enforced": {
+                    "module": [
+                        "user"
+                    ]
+                }
+            },
+            "drupal_internal__id": "pathauto_update_alias_user",
+            "label": "Update URL alias",
+            "action_type": "user",
+            "plugin": "pathauto_update_alias",
+            "configuration": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/49996a88-6d3e-491e-92e1-b7e3a8af51b0"
+        }
+    }
+}

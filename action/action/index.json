@@ -1,0 +1,420 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "action--action",
+            "id": "108868de-436f-4d01-9e4c-2bcd4f9097d6",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/108868de-436f-4d01-9e4c-2bcd4f9097d6"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "media"
+                    ]
+                },
+                "drupal_internal__id": "media_delete_action",
+                "label": "Delete media",
+                "action_type": "media",
+                "plugin": "entity:delete_action:media",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "ad12d0ec-b511-403b-897b-4cd8da1feecc",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/ad12d0ec-b511-403b-897b-4cd8da1feecc"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "media"
+                    ]
+                },
+                "drupal_internal__id": "media_publish_action",
+                "label": "Publish media",
+                "action_type": "media",
+                "plugin": "entity:publish_action:media",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "2033d0cf-91cc-4d2b-8110-78b374d957c6",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/2033d0cf-91cc-4d2b-8110-78b374d957c6"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "media"
+                    ]
+                },
+                "drupal_internal__id": "media_save_action",
+                "label": "Save media",
+                "action_type": "media",
+                "plugin": "entity:save_action:media",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "7fb2050a-67d4-4df9-b637-287ac7f90acb",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/7fb2050a-67d4-4df9-b637-287ac7f90acb"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "media"
+                    ]
+                },
+                "drupal_internal__id": "media_unpublish_action",
+                "label": "Unpublish media",
+                "action_type": "media",
+                "plugin": "entity:unpublish_action:media",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "5e3fa132-937a-492c-9599-ccbf0d2a3585",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/5e3fa132-937a-492c-9599-ccbf0d2a3585"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_delete_action",
+                "label": "Delete content",
+                "action_type": "node",
+                "plugin": "entity:delete_action:node",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "233b628d-a736-4adc-b970-ac5a8de8dc20",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/233b628d-a736-4adc-b970-ac5a8de8dc20"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_make_sticky_action",
+                "label": "Make content sticky",
+                "action_type": "node",
+                "plugin": "node_make_sticky_action",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "6c871c62-cec1-4f48-8f8d-4fe2fad5772f",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/6c871c62-cec1-4f48-8f8d-4fe2fad5772f"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_make_unsticky_action",
+                "label": "Make content unsticky",
+                "action_type": "node",
+                "plugin": "node_make_unsticky_action",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "5435a254-1a49-4a32-8fe6-8edfe441be38",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/5435a254-1a49-4a32-8fe6-8edfe441be38"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_promote_action",
+                "label": "Promote content to front page",
+                "action_type": "node",
+                "plugin": "node_promote_action",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "19daa742-bc87-428f-b435-1c2e05ba02ed",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/19daa742-bc87-428f-b435-1c2e05ba02ed"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_publish_action",
+                "label": "Publish content",
+                "action_type": "node",
+                "plugin": "entity:publish_action:node",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "a286dd40-195d-4020-9455-62045d22ba49",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/a286dd40-195d-4020-9455-62045d22ba49"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_save_action",
+                "label": "Save content",
+                "action_type": "node",
+                "plugin": "entity:save_action:node",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "85171d39-8c6b-4023-bb22-70f6a23e7e01",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/85171d39-8c6b-4023-bb22-70f6a23e7e01"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_unpromote_action",
+                "label": "Remove content from front page",
+                "action_type": "node",
+                "plugin": "node_unpromote_action",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "1f8adccc-aeb7-430f-9124-4a6e3c09ad83",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/1f8adccc-aeb7-430f-9124-4a6e3c09ad83"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "node"
+                    ]
+                },
+                "drupal_internal__id": "node_unpublish_action",
+                "label": "Unpublish content",
+                "action_type": "node",
+                "plugin": "entity:unpublish_action:node",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "9ac94e0b-6001-494b-874e-f11affe32c89",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/9ac94e0b-6001-494b-874e-f11affe32c89"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "pathauto"
+                    ],
+                    "enforced": {
+                        "module": [
+                            "node"
+                        ]
+                    }
+                },
+                "drupal_internal__id": "pathauto_update_alias_node",
+                "label": "Update URL alias",
+                "action_type": "node",
+                "plugin": "pathauto_update_alias",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "49996a88-6d3e-491e-92e1-b7e3a8af51b0",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/49996a88-6d3e-491e-92e1-b7e3a8af51b0"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "pathauto"
+                    ],
+                    "enforced": {
+                        "module": [
+                            "user"
+                        ]
+                    }
+                },
+                "drupal_internal__id": "pathauto_update_alias_user",
+                "label": "Update URL alias",
+                "action_type": "user",
+                "plugin": "pathauto_update_alias",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "19a8f74a-ec15-43cc-bcc4-f64225b906b8",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/19a8f74a-ec15-43cc-bcc4-f64225b906b8"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "user"
+                    ]
+                },
+                "drupal_internal__id": "user_block_user_action",
+                "label": "Block the selected user(s)",
+                "action_type": "user",
+                "plugin": "user_block_user_action",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "01c3f6dc-84ce-4ddb-94da-f6db8ef6fb5d",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/01c3f6dc-84ce-4ddb-94da-f6db8ef6fb5d"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "user"
+                    ]
+                },
+                "drupal_internal__id": "user_cancel_user_action",
+                "label": "Cancel the selected user account(s)",
+                "action_type": "user",
+                "plugin": "user_cancel_user_action",
+                "configuration": []
+            }
+        },
+        {
+            "type": "action--action",
+            "id": "ad31f2ad-221c-425f-a8d1-4528f73ff3a1",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/ad31f2ad-221c-425f-a8d1-4528f73ff3a1"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "module": [
+                        "user"
+                    ]
+                },
+                "drupal_internal__id": "user_unblock_user_action",
+                "label": "Unblock the selected user(s)",
+                "action_type": "user",
+                "plugin": "user_unblock_user_action",
+                "configuration": []
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action"
+        }
+    }
+}

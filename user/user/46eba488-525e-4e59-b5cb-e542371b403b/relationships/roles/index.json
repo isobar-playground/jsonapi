@@ -1,0 +1,21 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [],
+    "links": {
+        "related": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/46eba488-525e-4e59-b5cb-e542371b403b\/roles"
+        },
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/46eba488-525e-4e59-b5cb-e542371b403b\/relationships\/roles"
+        }
+    }
+}

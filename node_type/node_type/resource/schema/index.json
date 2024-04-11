@@ -1,0 +1,77 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/node_type\/node_type\/resource\/schema",
+    "title": "Content type",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "node_type--node_type"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__type": {
+                    "title": "drupal_internal__type"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "name": {
+                    "title": "name"
+                },
+                "description": {
+                    "title": "description"
+                },
+                "help": {
+                    "title": "help"
+                },
+                "new_revision": {
+                    "type": "boolean",
+                    "title": "new_revision"
+                },
+                "preview_mode": {
+                    "type": "integer",
+                    "title": "preview_mode"
+                },
+                "display_submitted": {
+                    "type": "boolean",
+                    "title": "display_submitted"
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

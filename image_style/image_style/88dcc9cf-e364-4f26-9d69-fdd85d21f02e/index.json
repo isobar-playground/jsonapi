@@ -1,0 +1,45 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "image_style--image_style",
+        "id": "88dcc9cf-e364-4f26-9d69-fdd85d21f02e",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/88dcc9cf-e364-4f26-9d69-fdd85d21f02e"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "drupal_internal__name": "large",
+            "label": "Large (480\u00d7480)",
+            "effects": {
+                "ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d": {
+                    "uuid": "ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d",
+                    "id": "image_scale",
+                    "weight": 0,
+                    "data": {
+                        "width": 480,
+                        "height": 480,
+                        "upscale": false
+                    }
+                }
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/88dcc9cf-e364-4f26-9d69-fdd85d21f02e"
+        }
+    }
+}

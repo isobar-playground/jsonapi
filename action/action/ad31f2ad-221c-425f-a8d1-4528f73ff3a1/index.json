@@ -1,0 +1,40 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "action--action",
+        "id": "ad31f2ad-221c-425f-a8d1-4528f73ff3a1",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/ad31f2ad-221c-425f-a8d1-4528f73ff3a1"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "user"
+                ]
+            },
+            "drupal_internal__id": "user_unblock_user_action",
+            "label": "Unblock the selected user(s)",
+            "action_type": "user",
+            "plugin": "user_unblock_user_action",
+            "configuration": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/ad31f2ad-221c-425f-a8d1-4528f73ff3a1"
+        }
+    }
+}

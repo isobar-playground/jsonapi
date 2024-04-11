@@ -1,0 +1,159 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "image_style--image_style",
+            "id": "88dcc9cf-e364-4f26-9d69-fdd85d21f02e",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/88dcc9cf-e364-4f26-9d69-fdd85d21f02e"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__name": "large",
+                "label": "Large (480\u00d7480)",
+                "effects": {
+                    "ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d": {
+                        "uuid": "ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d",
+                        "id": "image_scale",
+                        "weight": 0,
+                        "data": {
+                            "width": 480,
+                            "height": 480,
+                            "upscale": false
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "image_style--image_style",
+            "id": "7a7cd7eb-a5e6-41dc-b0dd-b62e54874671",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/7a7cd7eb-a5e6-41dc-b0dd-b62e54874671"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__name": "media_entity_browser_thumbnail",
+                "label": "Media Entity Browser thumbnail",
+                "effects": {
+                    "1d899e87-51e4-4467-90db-e516c31d4688": {
+                        "uuid": "1d899e87-51e4-4467-90db-e516c31d4688",
+                        "id": "image_scale_and_crop",
+                        "weight": 1,
+                        "data": {
+                            "width": 350,
+                            "height": 200,
+                            "anchor": "center-center"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "image_style--image_style",
+            "id": "869df22c-d99b-47fe-a9a8-b0dee0373ab3",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/869df22c-d99b-47fe-a9a8-b0dee0373ab3"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__name": "medium",
+                "label": "Medium (220\u00d7220)",
+                "effects": {
+                    "bddf0d06-42f9-4c75-a700-a33cafa25ea0": {
+                        "uuid": "bddf0d06-42f9-4c75-a700-a33cafa25ea0",
+                        "id": "image_scale",
+                        "weight": 0,
+                        "data": {
+                            "width": 220,
+                            "height": 220,
+                            "upscale": false
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "image_style--image_style",
+            "id": "db646c9a-8907-4735-af46-f206d534a377",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/db646c9a-8907-4735-af46-f206d534a377"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__name": "thumbnail",
+                "label": "Thumbnail (100\u00d7100)",
+                "effects": {
+                    "1cfec298-8620-4749-b100-ccb6c4500779": {
+                        "uuid": "1cfec298-8620-4749-b100-ccb6c4500779",
+                        "id": "image_scale",
+                        "weight": 0,
+                        "data": {
+                            "width": 100,
+                            "height": 100,
+                            "upscale": false
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "image_style--image_style",
+            "id": "07e73ded-4c19-4494-80ac-4d650016d167",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/07e73ded-4c19-4494-80ac-4d650016d167"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__name": "wide",
+                "label": "Wide (1090)",
+                "effects": {
+                    "09959c15-59ce-4f6d-90df-e2d7cf32bce5": {
+                        "uuid": "09959c15-59ce-4f6d-90df-e2d7cf32bce5",
+                        "id": "image_scale",
+                        "weight": 1,
+                        "data": {
+                            "width": 1090,
+                            "height": null,
+                            "upscale": false
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style"
+        }
+    }
+}

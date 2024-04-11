@@ -1,0 +1,55 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "field_config--field_config",
+        "id": "65e0e51f-a47a-40a6-94bd-0be742d911c5",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_config\/field_config\/65e0e51f-a47a-40a6-94bd-0be742d911c5"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "config": [
+                    "field.storage.node.body",
+                    "node.type.blog"
+                ],
+                "module": [
+                    "text"
+                ]
+            },
+            "drupal_internal__id": "node.blog.body",
+            "field_name": "body",
+            "entity_type": "node",
+            "bundle": "blog",
+            "label": "Body",
+            "description": "",
+            "required": false,
+            "translatable": true,
+            "default_value": [],
+            "default_value_callback": "",
+            "settings": {
+                "display_summary": true,
+                "required_summary": false,
+                "allowed_formats": []
+            },
+            "field_type": "text_with_summary"
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_config\/field_config\/65e0e51f-a47a-40a6-94bd-0be742d911c5"
+        }
+    }
+}

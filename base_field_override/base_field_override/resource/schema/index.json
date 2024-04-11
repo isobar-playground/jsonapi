@@ -1,0 +1,79 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/base_field_override\/base_field_override\/resource\/schema",
+    "title": "Base field override",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "base_field_override--base_field_override"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "title": "third_party_settings"
+                },
+                "field_name": {
+                    "title": "field_name"
+                },
+                "entity_type": {
+                    "title": "entity_type"
+                },
+                "bundle": {
+                    "title": "bundle"
+                },
+                "label": {
+                    "title": "label"
+                },
+                "description": {
+                    "title": "description"
+                },
+                "required": {
+                    "title": "required"
+                },
+                "translatable": {
+                    "title": "translatable"
+                },
+                "default_value": {
+                    "title": "default_value"
+                },
+                "default_value_callback": {
+                    "title": "default_value_callback"
+                },
+                "settings": {
+                    "title": "settings"
+                },
+                "field_type": {
+                    "title": "field_type"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

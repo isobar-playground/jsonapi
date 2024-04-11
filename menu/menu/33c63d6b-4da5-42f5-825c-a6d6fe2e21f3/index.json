@@ -1,0 +1,35 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "menu--menu",
+        "id": "33c63d6b-4da5-42f5-825c-a6d6fe2e21f3",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/33c63d6b-4da5-42f5-825c-a6d6fe2e21f3"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "drupal_internal__id": "tools",
+            "label": "Tools",
+            "description": "User tool links, often added by modules",
+            "locked": true
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/33c63d6b-4da5-42f5-825c-a6d6fe2e21f3"
+        }
+    }
+}

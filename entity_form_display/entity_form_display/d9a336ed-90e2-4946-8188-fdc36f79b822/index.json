@@ -1,0 +1,103 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "entity_form_display--entity_form_display",
+        "id": "d9a336ed-90e2-4946-8188-fdc36f79b822",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_display\/entity_form_display\/d9a336ed-90e2-4946-8188-fdc36f79b822"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "config": [
+                    "field.field.media.hero_image.field_media_image",
+                    "image.style.thumbnail",
+                    "media.type.hero_image"
+                ],
+                "module": [
+                    "image",
+                    "path"
+                ]
+            },
+            "drupal_internal__id": "media.hero_image.default",
+            "targetEntityType": "media",
+            "bundle": "hero_image",
+            "mode": "default",
+            "content": {
+                "created": {
+                    "type": "datetime_timestamp",
+                    "weight": 10,
+                    "region": "content",
+                    "settings": [],
+                    "third_party_settings": []
+                },
+                "field_media_image": {
+                    "type": "image_image",
+                    "weight": 0,
+                    "region": "content",
+                    "settings": {
+                        "progress_indicator": "throbber",
+                        "preview_image_style": "thumbnail"
+                    },
+                    "third_party_settings": []
+                },
+                "name": {
+                    "type": "string_textfield",
+                    "weight": -5,
+                    "region": "content",
+                    "settings": {
+                        "size": 60,
+                        "placeholder": ""
+                    },
+                    "third_party_settings": []
+                },
+                "path": {
+                    "type": "path",
+                    "weight": 30,
+                    "region": "content",
+                    "settings": [],
+                    "third_party_settings": []
+                },
+                "status": {
+                    "type": "boolean_checkbox",
+                    "weight": 100,
+                    "region": "content",
+                    "settings": {
+                        "display_label": true
+                    },
+                    "third_party_settings": []
+                },
+                "uid": {
+                    "type": "entity_reference_autocomplete",
+                    "weight": 5,
+                    "region": "content",
+                    "settings": {
+                        "match_operator": "CONTAINS",
+                        "match_limit": 10,
+                        "size": 60,
+                        "placeholder": ""
+                    },
+                    "third_party_settings": []
+                }
+            },
+            "hidden": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_display\/entity_form_display\/d9a336ed-90e2-4946-8188-fdc36f79b822"
+        }
+    }
+}

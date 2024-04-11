@@ -1,0 +1,79 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/jsonapi_resource_config\/jsonapi_resource_config\/resource\/schema",
+    "title": "JSON:API resource override",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "jsonapi_resource_config--jsonapi_resource_config"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "type": "string",
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "disabled": {
+                    "type": "boolean",
+                    "title": "disabled"
+                },
+                "path": {
+                    "type": "string",
+                    "title": "path"
+                },
+                "resourceType": {
+                    "type": "string",
+                    "title": "resourceType"
+                },
+                "resourceFields": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "resourceFields": {
+                                "title": "resourceFields"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

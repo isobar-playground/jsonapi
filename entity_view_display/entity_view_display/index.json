@@ -1,0 +1,174 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "entity_view_display--entity_view_display",
+            "id": "bf18a9b1-6e61-4685-a65b-adb7028e39c4",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_display\/entity_view_display\/bf18a9b1-6e61-4685-a65b-adb7028e39c4"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "field.field.media.hero_image.field_media_image",
+                        "image.style.large",
+                        "media.type.hero_image"
+                    ],
+                    "module": [
+                        "image"
+                    ]
+                },
+                "drupal_internal__id": "media.hero_image.default",
+                "targetEntityType": "media",
+                "bundle": "hero_image",
+                "mode": "default",
+                "content": {
+                    "field_media_image": {
+                        "type": "image",
+                        "label": "visually_hidden",
+                        "settings": {
+                            "image_link": "",
+                            "image_style": "large",
+                            "image_loading": {
+                                "attribute": "lazy"
+                            }
+                        },
+                        "third_party_settings": [],
+                        "weight": 0,
+                        "region": "content"
+                    }
+                },
+                "hidden": {
+                    "created": true,
+                    "name": true,
+                    "thumbnail": true,
+                    "uid": true
+                }
+            }
+        },
+        {
+            "type": "entity_view_display--entity_view_display",
+            "id": "0594724b-eb7d-436b-bc23-78a9e97666b6",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_display\/entity_view_display\/0594724b-eb7d-436b-bc23-78a9e97666b6"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "field.field.node.blog.body",
+                        "field.field.node.blog.field_hero_image",
+                        "node.type.blog"
+                    ],
+                    "module": [
+                        "text",
+                        "user"
+                    ]
+                },
+                "drupal_internal__id": "node.blog.default",
+                "targetEntityType": "node",
+                "bundle": "blog",
+                "mode": "default",
+                "content": {
+                    "body": {
+                        "type": "text_default",
+                        "label": "hidden",
+                        "settings": [],
+                        "third_party_settings": [],
+                        "weight": 101,
+                        "region": "content"
+                    },
+                    "field_hero_image": {
+                        "type": "entity_reference_entity_view",
+                        "label": "above",
+                        "settings": {
+                            "view_mode": "default",
+                            "link": false
+                        },
+                        "third_party_settings": [],
+                        "weight": 102,
+                        "region": "content"
+                    },
+                    "links": {
+                        "settings": [],
+                        "third_party_settings": [],
+                        "weight": 100,
+                        "region": "content"
+                    }
+                },
+                "hidden": []
+            }
+        },
+        {
+            "type": "entity_view_display--entity_view_display",
+            "id": "567a78d1-78ad-4460-8d86-1b51bb46cb07",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_display\/entity_view_display\/567a78d1-78ad-4460-8d86-1b51bb46cb07"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "config": [
+                        "core.entity_view_mode.node.teaser",
+                        "field.field.node.blog.body",
+                        "field.field.node.blog.field_hero_image",
+                        "node.type.blog"
+                    ],
+                    "module": [
+                        "text",
+                        "user"
+                    ]
+                },
+                "drupal_internal__id": "node.blog.teaser",
+                "targetEntityType": "node",
+                "bundle": "blog",
+                "mode": "teaser",
+                "content": {
+                    "body": {
+                        "type": "text_summary_or_trimmed",
+                        "label": "hidden",
+                        "settings": {
+                            "trim_length": 600
+                        },
+                        "third_party_settings": [],
+                        "weight": 101,
+                        "region": "content"
+                    },
+                    "links": {
+                        "settings": [],
+                        "third_party_settings": [],
+                        "weight": 100,
+                        "region": "content"
+                    }
+                },
+                "hidden": {
+                    "field_hero_image": true
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_display\/entity_view_display"
+        }
+    }
+}

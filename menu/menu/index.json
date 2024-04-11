@@ -1,0 +1,133 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "menu--menu",
+            "id": "e5b484e3-4109-4d07-9fb5-751f3b8fb680",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/e5b484e3-4109-4d07-9fb5-751f3b8fb680"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "account",
+                "label": "User account menu",
+                "description": "Links related to the active user account",
+                "locked": true
+            }
+        },
+        {
+            "type": "menu--menu",
+            "id": "3143a85c-8ef6-4056-8041-fdfec032d578",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/3143a85c-8ef6-4056-8041-fdfec032d578"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "admin",
+                "label": "Administration",
+                "description": "Administrative task links",
+                "locked": true
+            }
+        },
+        {
+            "type": "menu--menu",
+            "id": "64a359fb-9597-4fca-8db1-145d87135d7a",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/64a359fb-9597-4fca-8db1-145d87135d7a"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": {
+                    "enforced": {
+                        "module": [
+                            "devel"
+                        ]
+                    }
+                },
+                "drupal_internal__id": "devel",
+                "label": "Development",
+                "description": "Links related to Devel module.",
+                "locked": true
+            }
+        },
+        {
+            "type": "menu--menu",
+            "id": "21327f5a-cd10-42ff-a010-43d7ee39549e",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/21327f5a-cd10-42ff-a010-43d7ee39549e"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "footer",
+                "label": "Footer",
+                "description": "Site information links",
+                "locked": true
+            }
+        },
+        {
+            "type": "menu--menu",
+            "id": "9eb2de0f-54c0-4683-85fa-c7235daad822",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/9eb2de0f-54c0-4683-85fa-c7235daad822"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "main",
+                "label": "Main navigation",
+                "description": "Site section links",
+                "locked": true
+            }
+        },
+        {
+            "type": "menu--menu",
+            "id": "33c63d6b-4da5-42f5-825c-a6d6fe2e21f3",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/33c63d6b-4da5-42f5-825c-a6d6fe2e21f3"
+                }
+            },
+            "attributes": {
+                "langcode": "en",
+                "status": true,
+                "dependencies": [],
+                "drupal_internal__id": "tools",
+                "label": "Tools",
+                "description": "User tool links, often added by modules",
+                "locked": true
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu"
+        }
+    }
+}

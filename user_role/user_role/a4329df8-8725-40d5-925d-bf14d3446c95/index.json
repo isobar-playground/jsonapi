@@ -1,0 +1,146 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "user_role--user_role",
+        "id": "a4329df8-8725-40d5-925d-bf14d3446c95",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user_role\/user_role\/a4329df8-8725-40d5-925d-bf14d3446c95"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "config": [
+                    "media.type.hero_image",
+                    "node.type.blog"
+                ],
+                "module": [
+                    "block",
+                    "content_moderation",
+                    "devel",
+                    "entity_browser",
+                    "field_ui",
+                    "file",
+                    "filter",
+                    "image",
+                    "media",
+                    "node",
+                    "openapi",
+                    "path",
+                    "pathauto",
+                    "schemata",
+                    "system",
+                    "toolbar",
+                    "workflows"
+                ]
+            },
+            "drupal_internal__id": "anonymous",
+            "label": "Anonymous user",
+            "weight": 0,
+            "is_admin": false,
+            "permissions": [
+                "access administration pages",
+                "access content",
+                "access content overview",
+                "access devel information",
+                "access files overview",
+                "access media overview",
+                "access media_entity_browser entity browser pages",
+                "access media_entity_browser_modal entity browser pages",
+                "access openapi api docs",
+                "access schemata data models",
+                "access site in maintenance mode",
+                "access site reports",
+                "access toolbar",
+                "access user profiles",
+                "administer account settings",
+                "administer blocks",
+                "administer content types",
+                "administer display modes",
+                "administer entity browsers",
+                "administer filters",
+                "administer image styles",
+                "administer media",
+                "administer media display",
+                "administer media fields",
+                "administer media form display",
+                "administer media types",
+                "administer menu",
+                "administer modules",
+                "administer node display",
+                "administer node fields",
+                "administer node form display",
+                "administer nodes",
+                "administer pathauto",
+                "administer permissions",
+                "administer site configuration",
+                "administer software updates",
+                "administer themes",
+                "administer url aliases",
+                "administer user display",
+                "administer user fields",
+                "administer user form display",
+                "administer users",
+                "administer workflows",
+                "bypass node access",
+                "cancel account",
+                "change own username",
+                "create blog content",
+                "create hero_image media",
+                "create media",
+                "create url aliases",
+                "delete all revisions",
+                "delete any blog content",
+                "delete any file",
+                "delete any hero_image media",
+                "delete any hero_image media revisions",
+                "delete any media",
+                "delete blog revisions",
+                "delete media",
+                "delete own blog content",
+                "delete own files",
+                "delete own hero_image media",
+                "edit any blog content",
+                "edit any hero_image media",
+                "edit own blog content",
+                "edit own hero_image media",
+                "link to any page",
+                "notify of path changes",
+                "revert all revisions",
+                "revert any hero_image media revisions",
+                "revert blog revisions",
+                "select account cancellation method",
+                "switch users",
+                "update any media",
+                "update media",
+                "view all media revisions",
+                "view all revisions",
+                "view any hero_image media revisions",
+                "view any unpublished content",
+                "view blog revisions",
+                "view latest version",
+                "view media",
+                "view own unpublished content",
+                "view own unpublished media",
+                "view the administration theme",
+                "view user email addresses"
+            ]
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user_role\/user_role\/a4329df8-8725-40d5-925d-bf14d3446c95"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_mode\/entity_form_mode\/resource\/schema",
+    "title": "Form mode",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "entity_form_mode--entity_form_mode"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "title": "third_party_settings"
+                },
+                "label": {
+                    "title": "label"
+                },
+                "description": {
+                    "title": "description"
+                },
+                "targetEntityType": {
+                    "title": "targetEntityType"
+                },
+                "cache": {
+                    "title": "cache"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

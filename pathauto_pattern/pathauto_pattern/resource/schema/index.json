@@ -1,0 +1,96 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/pathauto_pattern\/pathauto_pattern\/resource\/schema",
+    "title": "Pathauto pattern",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "pathauto_pattern--pathauto_pattern"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "type": "string",
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "label": {
+                    "title": "label"
+                },
+                "pathauto_pattern_type": {
+                    "type": "string",
+                    "title": "pathauto_pattern_type"
+                },
+                "pattern": {
+                    "type": "string",
+                    "title": "pattern"
+                },
+                "selection_criteria": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "selection_criteria": {
+                                "title": "selection_criteria"
+                            }
+                        }
+                    }
+                },
+                "selection_logic": {
+                    "type": "string",
+                    "title": "selection_logic"
+                },
+                "weight": {
+                    "type": "integer",
+                    "title": "weight"
+                },
+                "relationships": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "relationships": {
+                                "title": "relationships"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

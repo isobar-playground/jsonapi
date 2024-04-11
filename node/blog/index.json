@@ -1,0 +1,124 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "node--blog",
+            "id": "43fa3684-f4b9-4a60-9ed7-dde6beda4c8d",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d?resourceVersion=id%3A5"
+                }
+            },
+            "attributes": {
+                "drupal_internal__nid": 2,
+                "drupal_internal__vid": 5,
+                "langcode": "en",
+                "revision_timestamp": "2024-04-08T22:05:59+00:00",
+                "revision_log": null,
+                "status": true,
+                "title": "First blog post",
+                "created": "2024-04-05T23:48:27+00:00",
+                "changed": "2024-04-08T22:05:59+00:00",
+                "promote": true,
+                "sticky": false,
+                "default_langcode": true,
+                "revision_translation_affected": true,
+                "path": {
+                    "alias": "\/posts\/first-blog-post",
+                    "pid": 3,
+                    "langcode": "en"
+                },
+                "body": {
+                    "value": "This is example blog post.",
+                    "format": "plain_text",
+                    "processed": "<p>This is example blog post.<\/p>\n",
+                    "summary": ""
+                }
+            },
+            "relationships": {
+                "node_type": {
+                    "data": {
+                        "type": "node_type--node_type",
+                        "id": "d50e5591-8b66-4236-a700-0949ec2eb547",
+                        "meta": {
+                            "drupal_internal__target_id": "blog"
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/node_type?resourceVersion=id%3A5"
+                        },
+                        "self": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/relationships\/node_type?resourceVersion=id%3A5"
+                        }
+                    }
+                },
+                "revision_uid": {
+                    "data": {
+                        "type": "user--user",
+                        "id": "46eba488-525e-4e59-b5cb-e542371b403b",
+                        "meta": {
+                            "drupal_internal__target_id": 1
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/revision_uid?resourceVersion=id%3A5"
+                        },
+                        "self": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/relationships\/revision_uid?resourceVersion=id%3A5"
+                        }
+                    }
+                },
+                "uid": {
+                    "data": {
+                        "type": "user--user",
+                        "id": "46eba488-525e-4e59-b5cb-e542371b403b",
+                        "meta": {
+                            "drupal_internal__target_id": 1
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/uid?resourceVersion=id%3A5"
+                        },
+                        "self": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/relationships\/uid?resourceVersion=id%3A5"
+                        }
+                    }
+                },
+                "field_hero_image": {
+                    "data": {
+                        "type": "media--hero_image",
+                        "id": "c77ed973-d09f-480c-91a5-d6a21fae7b52",
+                        "meta": {
+                            "drupal_internal__target_id": 1
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/field_hero_image?resourceVersion=id%3A5"
+                        },
+                        "self": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/relationships\/field_hero_image?resourceVersion=id%3A5"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog"
+        }
+    }
+}

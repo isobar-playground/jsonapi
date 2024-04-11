@@ -1,0 +1,426 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/schema",
+    "title": "Hero image media item",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                },
+                "relationships": {
+                    "$ref": "#\/definitions\/relationships"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "media--hero_image"
+        },
+        "attributes": {
+            "description": "Entity attributes",
+            "type": "object",
+            "properties": {
+                "drupal_internal__mid": {
+                    "type": "integer",
+                    "title": "ID"
+                },
+                "drupal_internal__vid": {
+                    "type": "integer",
+                    "title": "Revision ID"
+                },
+                "langcode": {
+                    "type": "string",
+                    "title": "Language"
+                },
+                "revision_created": {
+                    "type": "number",
+                    "title": "Revision create time",
+                    "format": "utc-millisec",
+                    "description": "The time that the current revision was created."
+                },
+                "revision_log_message": {
+                    "type": "string",
+                    "title": "Revision log message",
+                    "description": "Briefly describe the changes you have made.",
+                    "default": ""
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "Published",
+                    "default": true
+                },
+                "name": {
+                    "type": "string",
+                    "title": "Name",
+                    "maxLength": 255,
+                    "default": ""
+                },
+                "created": {
+                    "type": "number",
+                    "title": "Authored on",
+                    "format": "utc-millisec",
+                    "description": "The time the media item was created."
+                },
+                "changed": {
+                    "type": "number",
+                    "title": "Changed",
+                    "format": "utc-millisec",
+                    "description": "The time the media item was last edited."
+                },
+                "default_langcode": {
+                    "type": "boolean",
+                    "title": "Default translation",
+                    "description": "A flag indicating whether this is the default translation.",
+                    "default": true
+                },
+                "revision_default": {
+                    "type": "boolean",
+                    "title": "Default revision",
+                    "description": "A flag indicating whether this was a default revision when it was saved."
+                },
+                "revision_translation_affected": {
+                    "type": "boolean",
+                    "title": "Revision translation affected",
+                    "description": "Indicates if the last edit of a translation belongs to current revision."
+                },
+                "path": {
+                    "type": "object",
+                    "properties": {
+                        "alias": {
+                            "type": "string",
+                            "title": "Path alias"
+                        },
+                        "pid": {
+                            "type": "integer",
+                            "title": "Path id"
+                        },
+                        "langcode": {
+                            "type": "string",
+                            "title": "Language Code"
+                        }
+                    },
+                    "title": "URL alias"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "additionalProperties": false
+        },
+        "relationships": {
+            "description": "Entity relationships",
+            "properties": {
+                "bundle": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "media_type--media_type"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "string",
+                                    "title": "Media type ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Media type",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/relationships\/bundle\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "revision_user": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "user--user"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "integer",
+                                    "title": "User ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Revision user",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/relationships\/revision_user\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "uid": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "user--user"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "integer",
+                                    "title": "User ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Authored by",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/relationships\/uid\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "thumbnail": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "file--file"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "object",
+                                    "properties": {
+                                        "target_id": {
+                                            "type": "integer",
+                                            "title": "File ID"
+                                        },
+                                        "alt": {
+                                            "type": "string",
+                                            "title": "Alternative text",
+                                            "description": "Alternative image text, for the image\\'s \\'alt\\' attribute."
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "title": "Title",
+                                            "description": "Image title text, for the image\\'s \\'title\\' attribute."
+                                        },
+                                        "width": {
+                                            "type": "integer",
+                                            "title": "Width",
+                                            "description": "The width of the image in pixels."
+                                        },
+                                        "height": {
+                                            "type": "integer",
+                                            "title": "Height",
+                                            "description": "The height of the image in pixels."
+                                        }
+                                    },
+                                    "required": [
+                                        "target_id"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "title": "Thumbnail",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/relationships\/thumbnail\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "field_media_image": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "file--file"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "object",
+                                    "properties": {
+                                        "target_id": {
+                                            "type": "integer",
+                                            "title": "File ID"
+                                        },
+                                        "alt": {
+                                            "type": "string",
+                                            "title": "Alternative text",
+                                            "description": "Alternative image text, for the image\\'s \\'alt\\' attribute."
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "title": "Title",
+                                            "description": "Image title text, for the image\\'s \\'title\\' attribute."
+                                        },
+                                        "width": {
+                                            "type": "integer",
+                                            "title": "Width",
+                                            "description": "The width of the image in pixels."
+                                        },
+                                        "height": {
+                                            "type": "integer",
+                                            "title": "Height",
+                                            "description": "The height of the image in pixels."
+                                        }
+                                    },
+                                    "required": [
+                                        "target_id"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "title": "Image",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/resource\/relationships\/field_media_image\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "object",
+            "required": [
+                "field_media_image"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

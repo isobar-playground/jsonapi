@@ -1,0 +1,27 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "media--hero_image",
+        "id": "c77ed973-d09f-480c-91a5-d6a21fae7b52",
+        "meta": {
+            "drupal_internal__target_id": 1
+        }
+    },
+    "links": {
+        "related": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/field_hero_image?resourceVersion=id%3A5"
+        },
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/43fa3684-f4b9-4a60-9ed7-dde6beda4c8d\/relationships\/field_hero_image?resourceVersion=id%3A5"
+        }
+    }
+}

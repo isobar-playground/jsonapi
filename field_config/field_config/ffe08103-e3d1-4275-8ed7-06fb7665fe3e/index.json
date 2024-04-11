@@ -1,0 +1,62 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "field_config--field_config",
+        "id": "ffe08103-e3d1-4275-8ed7-06fb7665fe3e",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_config\/field_config\/ffe08103-e3d1-4275-8ed7-06fb7665fe3e"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "config": [
+                    "field.storage.node.field_hero_image",
+                    "media.type.hero_image",
+                    "node.type.blog"
+                ]
+            },
+            "drupal_internal__id": "node.blog.field_hero_image",
+            "field_name": "field_hero_image",
+            "entity_type": "node",
+            "bundle": "blog",
+            "label": "Hero image",
+            "description": "",
+            "required": true,
+            "translatable": false,
+            "default_value": [],
+            "default_value_callback": "",
+            "settings": {
+                "handler": "default:media",
+                "handler_settings": {
+                    "target_bundles": {
+                        "hero_image": "hero_image"
+                    },
+                    "sort": {
+                        "field": "_none",
+                        "direction": "ASC"
+                    },
+                    "auto_create": false,
+                    "auto_create_bundle": ""
+                }
+            },
+            "field_type": "entity_reference"
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_config\/field_config\/ffe08103-e3d1-4275-8ed7-06fb7665fe3e"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "path_alias--path_alias",
+            "id": "619eb619-8637-4db0-8ae2-b7c557875568",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/path_alias\/path_alias\/619eb619-8637-4db0-8ae2-b7c557875568?resourceVersion=id%3A3"
+                }
+            },
+            "attributes": {
+                "drupal_internal__id": 3,
+                "drupal_internal__revision_id": 3,
+                "langcode": "en",
+                "path": "\/node\/2",
+                "alias": "\/posts\/first-blog-post",
+                "status": true
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/path_alias\/path_alias"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "field_storage_config--field_storage_config",
+        "id": "7f49727a-8e16-4d32-8e89-ce2517f98c6c",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_storage_config\/field_storage_config\/7f49727a-8e16-4d32-8e89-ce2517f98c6c"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "media",
+                    "node"
+                ]
+            },
+            "drupal_internal__id": "node.field_hero_image",
+            "field_name": "field_hero_image",
+            "entity_type": "node",
+            "field_storage_config_type": "entity_reference",
+            "settings": {
+                "target_type": "media"
+            },
+            "module": "core",
+            "locked": false,
+            "cardinality": 1,
+            "translatable": true,
+            "indexes": [],
+            "persist_with_no_fields": false,
+            "custom_storage": false
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_storage_config\/field_storage_config\/7f49727a-8e16-4d32-8e89-ce2517f98c6c"
+        }
+    }
+}

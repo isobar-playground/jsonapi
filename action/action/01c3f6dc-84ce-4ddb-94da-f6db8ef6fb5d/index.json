@@ -1,0 +1,40 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "action--action",
+        "id": "01c3f6dc-84ce-4ddb-94da-f6db8ef6fb5d",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/01c3f6dc-84ce-4ddb-94da-f6db8ef6fb5d"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "user"
+                ]
+            },
+            "drupal_internal__id": "user_cancel_user_action",
+            "label": "Cancel the selected user account(s)",
+            "action_type": "user",
+            "plugin": "user_cancel_user_action",
+            "configuration": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/01c3f6dc-84ce-4ddb-94da-f6db8ef6fb5d"
+        }
+    }
+}

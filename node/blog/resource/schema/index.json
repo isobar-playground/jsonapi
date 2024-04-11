@@ -1,0 +1,352 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/resource\/schema",
+    "title": "Blog content item",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                },
+                "relationships": {
+                    "$ref": "#\/definitions\/relationships"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "node--blog"
+        },
+        "attributes": {
+            "description": "Entity attributes",
+            "type": "object",
+            "properties": {
+                "drupal_internal__nid": {
+                    "type": "integer",
+                    "title": "ID"
+                },
+                "drupal_internal__vid": {
+                    "type": "integer",
+                    "title": "Revision ID"
+                },
+                "langcode": {
+                    "type": "string",
+                    "title": "Language"
+                },
+                "revision_timestamp": {
+                    "type": "number",
+                    "title": "Revision create time",
+                    "format": "utc-millisec",
+                    "description": "The time that the current revision was created."
+                },
+                "revision_log": {
+                    "type": "string",
+                    "title": "Revision log message",
+                    "description": "Briefly describe the changes you have made.",
+                    "default": ""
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "Published",
+                    "default": true
+                },
+                "title": {
+                    "type": "string",
+                    "title": "Title",
+                    "maxLength": 255
+                },
+                "created": {
+                    "type": "number",
+                    "title": "Authored on",
+                    "format": "utc-millisec",
+                    "description": "The date and time that the content was created."
+                },
+                "changed": {
+                    "type": "number",
+                    "title": "Changed",
+                    "format": "utc-millisec",
+                    "description": "The time that the node was last edited."
+                },
+                "promote": {
+                    "type": "boolean",
+                    "title": "Promoted to front page",
+                    "default": true
+                },
+                "sticky": {
+                    "type": "boolean",
+                    "title": "Sticky at top of lists",
+                    "default": false
+                },
+                "default_langcode": {
+                    "type": "boolean",
+                    "title": "Default translation",
+                    "description": "A flag indicating whether this is the default translation.",
+                    "default": true
+                },
+                "revision_default": {
+                    "type": "boolean",
+                    "title": "Default revision",
+                    "description": "A flag indicating whether this was a default revision when it was saved."
+                },
+                "revision_translation_affected": {
+                    "type": "boolean",
+                    "title": "Revision translation affected",
+                    "description": "Indicates if the last edit of a translation belongs to current revision."
+                },
+                "path": {
+                    "type": "object",
+                    "properties": {
+                        "alias": {
+                            "type": "string",
+                            "title": "Path alias"
+                        },
+                        "pid": {
+                            "type": "integer",
+                            "title": "Path id"
+                        },
+                        "langcode": {
+                            "type": "string",
+                            "title": "Language Code"
+                        }
+                    },
+                    "title": "URL alias"
+                },
+                "body": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string",
+                            "title": "Text"
+                        },
+                        "format": {
+                            "type": "string",
+                            "title": "Text format"
+                        },
+                        "summary": {
+                            "type": "string",
+                            "title": "Summary"
+                        }
+                    },
+                    "required": [
+                        "value"
+                    ],
+                    "title": "Body"
+                }
+            },
+            "required": [
+                "title"
+            ],
+            "additionalProperties": false
+        },
+        "relationships": {
+            "description": "Entity relationships",
+            "properties": {
+                "node_type": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "node_type--node_type"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "string",
+                                    "title": "Content type ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Content type",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/resource\/relationships\/node_type\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "revision_uid": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "user--user"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "integer",
+                                    "title": "User ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Revision user",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/resource\/relationships\/revision_uid\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "uid": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "user--user"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "integer",
+                                    "title": "User ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Authored by",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/resource\/relationships\/uid\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                },
+                "field_hero_image": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "media--hero_image"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "integer",
+                                    "title": "Media ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "Hero image",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/resource\/relationships\/field_hero_image\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "object",
+            "required": [
+                "field_hero_image"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

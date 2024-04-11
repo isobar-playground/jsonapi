@@ -1,0 +1,48 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "block--block",
+        "id": "2903269f-64c8-4be7-b2e6-2ffe4bbe3dba",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/2903269f-64c8-4be7-b2e6-2ffe4bbe3dba"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "theme": [
+                    "claro"
+                ]
+            },
+            "drupal_internal__id": "claro_local_actions",
+            "theme": "claro",
+            "region": "content",
+            "weight": -10,
+            "provider": null,
+            "plugin": "local_actions_block",
+            "settings": {
+                "id": "local_actions_block",
+                "label": "Primary admin actions",
+                "label_display": "0",
+                "provider": "core"
+            },
+            "visibility": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/2903269f-64c8-4be7-b2e6-2ffe4bbe3dba"
+        }
+    }
+}

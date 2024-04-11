@@ -1,0 +1,91 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_browser\/entity_browser\/resource\/schema",
+    "title": "Entity browser",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "entity_browser--entity_browser"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__name": {
+                    "type": "string",
+                    "title": "drupal_internal__name"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "label": {
+                    "title": "label"
+                },
+                "display": {
+                    "type": "string",
+                    "title": "display"
+                },
+                "display_configuration": {
+                    "title": "display_configuration"
+                },
+                "selection_display": {
+                    "type": "string",
+                    "title": "selection_display"
+                },
+                "selection_display_configuration": {
+                    "title": "selection_display_configuration"
+                },
+                "widget_selector": {
+                    "type": "string",
+                    "title": "widget_selector"
+                },
+                "widget_selector_configuration": {
+                    "title": "widget_selector_configuration"
+                },
+                "widgets": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "widgets": {
+                                "title": "widgets"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

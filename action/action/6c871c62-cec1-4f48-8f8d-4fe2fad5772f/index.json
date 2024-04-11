@@ -1,0 +1,40 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "action--action",
+        "id": "6c871c62-cec1-4f48-8f8d-4fe2fad5772f",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/6c871c62-cec1-4f48-8f8d-4fe2fad5772f"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "node"
+                ]
+            },
+            "drupal_internal__id": "node_make_unsticky_action",
+            "label": "Make content unsticky",
+            "action_type": "node",
+            "plugin": "node_make_unsticky_action",
+            "configuration": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/6c871c62-cec1-4f48-8f8d-4fe2fad5772f"
+        }
+    }
+}

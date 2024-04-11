@@ -1,0 +1,41 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "menu--menu",
+        "id": "64a359fb-9597-4fca-8db1-145d87135d7a",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/64a359fb-9597-4fca-8db1-145d87135d7a"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "enforced": {
+                    "module": [
+                        "devel"
+                    ]
+                }
+            },
+            "drupal_internal__id": "devel",
+            "label": "Development",
+            "description": "Links related to Devel module.",
+            "locked": true
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/64a359fb-9597-4fca-8db1-145d87135d7a"
+        }
+    }
+}

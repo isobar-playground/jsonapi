@@ -1,0 +1,27 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "errors": [
+        {
+            "title": "Internal Server Error",
+            "status": "500",
+            "detail": "A JSON:API response failed validation (see the logs for details). Report this in the Drupal issue queue at https:\/\/www.drupal.org\/project\/issues\/drupal",
+            "links": {
+                "via": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/pathauto_pattern\/pathauto_pattern"
+                },
+                "info": {
+                    "href": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec10.html#sec10.5.1"
+                }
+            }
+        }
+    ]
+}

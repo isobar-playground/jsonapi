@@ -1,0 +1,72 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/path_alias\/path_alias\/resource\/schema",
+    "title": "URL alias",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "path_alias--path_alias"
+        },
+        "attributes": {
+            "description": "Entity attributes",
+            "type": "object",
+            "properties": {
+                "drupal_internal__id": {
+                    "type": "integer",
+                    "title": "ID"
+                },
+                "drupal_internal__revision_id": {
+                    "type": "integer",
+                    "title": "Revision ID"
+                },
+                "langcode": {
+                    "type": "string",
+                    "title": "Language",
+                    "default": "und"
+                },
+                "path": {
+                    "type": "string",
+                    "title": "System path",
+                    "maxLength": 255,
+                    "description": "The path that this alias belongs to."
+                },
+                "alias": {
+                    "type": "string",
+                    "title": "URL alias",
+                    "maxLength": 255,
+                    "description": "An alias used with this path."
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "Published",
+                    "default": true
+                },
+                "revision_default": {
+                    "type": "boolean",
+                    "title": "Default revision",
+                    "description": "A flag indicating whether this was a default revision when it was saved."
+                }
+            },
+            "required": [
+                "path",
+                "alias"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

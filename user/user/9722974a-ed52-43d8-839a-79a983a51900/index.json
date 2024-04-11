@@ -1,0 +1,29 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "user--user",
+        "id": "9722974a-ed52-43d8-839a-79a983a51900",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/9722974a-ed52-43d8-839a-79a983a51900"
+            }
+        },
+        "attributes": {
+            "display_name": "Anonymous"
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/9722974a-ed52-43d8-839a-79a983a51900"
+        }
+    }
+}

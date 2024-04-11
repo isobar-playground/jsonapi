@@ -1,0 +1,404 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/schema",
+    "allOf": [
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/success"
+        },
+        {
+            "type": "object",
+            "links": [
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Blocks",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/block--block\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Entity browser entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_browser\/entity_browser\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/entity_browser--entity_browser\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Field storages",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/field_storage_config\/field_storage_config\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/field_storage_config--field_storage_config\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Fields",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/field_config\/field_config\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/field_config--field_config\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Files",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/file--file\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Text formats",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/filter_format\/filter_format\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/filter_format--filter_format\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Image styles",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/image_style--image_style\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "JSON:API resource overrides",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/jsonapi_resource_config\/jsonapi_resource_config\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/jsonapi_resource_config--jsonapi_resource_config\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Hero image media items",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/media--hero_image\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Media types",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/media_type\/media_type\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/media_type--media_type\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Blog content items",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/node--blog\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Content types",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/node_type\/node_type\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/node_type--node_type\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "URL aliases",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/path_alias\/path_alias\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/path_alias--path_alias\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Actions",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/action--action\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Menus",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/menu--menu\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Users",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/user--user\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Roles",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/user_role\/user_role\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/user_role--user_role\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Workflows",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/workflow\/workflow\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/workflow--workflow\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Pathauto pattern entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/pathauto_pattern\/pathauto_pattern\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/pathauto_pattern--pathauto_pattern\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Views",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/view\/view\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/view--view\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Base field override entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/base_field_override\/base_field_override\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/base_field_override--base_field_override\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Entity form display entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_display\/entity_form_display\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/entity_form_display--entity_form_display\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Entity view display entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_display\/entity_view_display\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/entity_view_display--entity_view_display\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Form mode entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_mode\/entity_form_mode\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/entity_form_mode--entity_form_mode\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "View mode entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_mode\/entity_view_mode\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/entity_view_mode--entity_view_mode\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                },
+                {
+                    "href": "{instanceHref}",
+                    "rel": "related",
+                    "title": "Date format entities",
+                    "targetMediaType": "application\/vnd.api+json",
+                    "targetSchema": {
+                        "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/collection\/schema"
+                    },
+                    "templatePointers": {
+                        "instanceHref": "\/links\/date_format--date_format\/href"
+                    },
+                    "templateRequired": [
+                        "instanceHref"
+                    ]
+                }
+            ]
+        }
+    ]
+}

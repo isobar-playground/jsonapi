@@ -1,0 +1,35 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "date_format--date_format",
+        "id": "e0242029-28e6-4fb4-896f-f0a306cedad2",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/e0242029-28e6-4fb4-896f-f0a306cedad2"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "drupal_internal__id": "medium",
+            "label": "Default medium date",
+            "locked": false,
+            "pattern": "D, m\/d\/Y - H:i"
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format\/e0242029-28e6-4fb4-896f-f0a306cedad2"
+        }
+    }
+}

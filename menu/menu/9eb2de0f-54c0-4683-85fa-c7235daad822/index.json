@@ -1,0 +1,35 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "menu--menu",
+        "id": "9eb2de0f-54c0-4683-85fa-c7235daad822",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/9eb2de0f-54c0-4683-85fa-c7235daad822"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "drupal_internal__id": "main",
+            "label": "Main navigation",
+            "description": "Site section links",
+            "locked": true
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/9eb2de0f-54c0-4683-85fa-c7235daad822"
+        }
+    }
+}

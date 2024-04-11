@@ -1,0 +1,59 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "filter_format--filter_format",
+        "id": "46ef20e9-f9cf-4e59-b0a1-00bb9c4af8e5",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/filter_format\/filter_format\/46ef20e9-f9cf-4e59-b0a1-00bb9c4af8e5"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "name": "Plain text",
+            "drupal_internal__format": "plain_text",
+            "weight": 10,
+            "filters": {
+                "filter_autop": {
+                    "id": "filter_autop",
+                    "provider": "filter",
+                    "status": true,
+                    "weight": 0,
+                    "settings": []
+                },
+                "filter_html_escape": {
+                    "id": "filter_html_escape",
+                    "provider": "filter",
+                    "status": true,
+                    "weight": -10,
+                    "settings": []
+                },
+                "filter_url": {
+                    "id": "filter_url",
+                    "provider": "filter",
+                    "status": true,
+                    "weight": 0,
+                    "settings": {
+                        "filter_url_length": 72
+                    }
+                }
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/filter_format\/filter_format\/46ef20e9-f9cf-4e59-b0a1-00bb9c4af8e5"
+        }
+    }
+}

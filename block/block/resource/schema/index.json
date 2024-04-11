@@ -1,0 +1,89 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/resource\/schema",
+    "title": "Block",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "block--block"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__id": {
+                    "title": "drupal_internal__id"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "theme": {
+                    "type": "string",
+                    "title": "theme"
+                },
+                "region": {
+                    "type": "string",
+                    "title": "region"
+                },
+                "weight": {
+                    "type": "integer",
+                    "title": "weight"
+                },
+                "provider": {
+                    "type": "string",
+                    "title": "provider"
+                },
+                "plugin": {
+                    "type": "string",
+                    "title": "plugin"
+                },
+                "settings": {
+                    "title": "settings"
+                },
+                "visibility": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "visibility": {
+                                "title": "visibility"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "block--block",
+        "id": "a2e2819d-42ee-4de7-bd4f-6011e1b73e81",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/a2e2819d-42ee-4de7-bd4f-6011e1b73e81"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "config": [
+                    "system.menu.admin"
+                ],
+                "module": [
+                    "system"
+                ],
+                "theme": [
+                    "stark"
+                ]
+            },
+            "drupal_internal__id": "stark_admin",
+            "theme": "stark",
+            "region": "sidebar_first",
+            "weight": 1,
+            "provider": null,
+            "plugin": "system_menu_block:admin",
+            "settings": {
+                "id": "system_menu_block:admin",
+                "label": "Administration",
+                "label_display": "visible",
+                "provider": "system",
+                "level": 1,
+                "depth": 0,
+                "expand_all_items": false
+            },
+            "visibility": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block\/a2e2819d-42ee-4de7-bd4f-6011e1b73e81"
+        }
+    }
+}

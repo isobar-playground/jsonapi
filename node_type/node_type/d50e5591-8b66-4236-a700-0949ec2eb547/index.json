@@ -1,0 +1,38 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "node_type--node_type",
+        "id": "d50e5591-8b66-4236-a700-0949ec2eb547",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node_type\/node_type\/d50e5591-8b66-4236-a700-0949ec2eb547"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "name": "Blog",
+            "drupal_internal__type": "blog",
+            "description": "Simple blog post.",
+            "help": "",
+            "new_revision": true,
+            "preview_mode": 1,
+            "display_submitted": true
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node_type\/node_type\/d50e5591-8b66-4236-a700-0949ec2eb547"
+        }
+    }
+}

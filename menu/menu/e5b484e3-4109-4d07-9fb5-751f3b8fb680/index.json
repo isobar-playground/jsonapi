@@ -1,0 +1,35 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "menu--menu",
+        "id": "e5b484e3-4109-4d07-9fb5-751f3b8fb680",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/e5b484e3-4109-4d07-9fb5-751f3b8fb680"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "drupal_internal__id": "account",
+            "label": "User account menu",
+            "description": "Links related to the active user account",
+            "locked": true
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/e5b484e3-4109-4d07-9fb5-751f3b8fb680"
+        }
+    }
+}

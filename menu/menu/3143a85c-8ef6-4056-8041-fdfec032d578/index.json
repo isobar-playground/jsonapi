@@ -1,0 +1,35 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "menu--menu",
+        "id": "3143a85c-8ef6-4056-8041-fdfec032d578",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/3143a85c-8ef6-4056-8041-fdfec032d578"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": [],
+            "drupal_internal__id": "admin",
+            "label": "Administration",
+            "description": "Administrative task links",
+            "locked": true
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu\/3143a85c-8ef6-4056-8041-fdfec032d578"
+        }
+    }
+}

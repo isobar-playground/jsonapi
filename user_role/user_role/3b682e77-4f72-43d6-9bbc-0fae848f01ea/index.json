@@ -1,0 +1,46 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "user_role--user_role",
+        "id": "3b682e77-4f72-43d6-9bbc-0fae848f01ea",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user_role\/user_role\/3b682e77-4f72-43d6-9bbc-0fae848f01ea"
+            }
+        },
+        "attributes": {
+            "langcode": "en",
+            "status": true,
+            "dependencies": {
+                "module": [
+                    "media",
+                    "openapi",
+                    "system"
+                ]
+            },
+            "drupal_internal__id": "authenticated",
+            "label": "Authenticated user",
+            "weight": 1,
+            "is_admin": false,
+            "permissions": [
+                "access content",
+                "access openapi api docs",
+                "view media"
+            ]
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user_role\/user_role\/3b682e77-4f72-43d6-9bbc-0fae848f01ea"
+        }
+    }
+}

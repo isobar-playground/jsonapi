@@ -1,0 +1,151 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file\/resource\/schema",
+    "title": "File",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                },
+                "relationships": {
+                    "$ref": "#\/definitions\/relationships"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "file--file"
+        },
+        "attributes": {
+            "description": "Entity attributes",
+            "type": "object",
+            "properties": {
+                "drupal_internal__fid": {
+                    "type": "integer",
+                    "title": "File ID",
+                    "description": "The file ID."
+                },
+                "langcode": {
+                    "type": "string",
+                    "title": "Language code",
+                    "description": "The file language code."
+                },
+                "filename": {
+                    "type": "string",
+                    "title": "Filename",
+                    "maxLength": 255,
+                    "description": "Name of the file with no path components."
+                },
+                "uri": {
+                    "type": "object",
+                    "properties": {
+                        "value": [],
+                        "url": {
+                            "type": "string",
+                            "title": "Root-relative file URL"
+                        }
+                    },
+                    "required": [
+                        "value"
+                    ],
+                    "title": "URI",
+                    "description": "The URI to access the file (either local or remote)."
+                },
+                "filemime": {
+                    "type": "string",
+                    "title": "File MIME type",
+                    "maxLength": 255,
+                    "description": "The file\\'s MIME type."
+                },
+                "filesize": {
+                    "type": "integer",
+                    "title": "File size",
+                    "description": "The size of the file in bytes."
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "Status",
+                    "description": "The status of the file, temporary (FALSE) and permanent (TRUE).",
+                    "default": false
+                },
+                "created": {
+                    "type": "number",
+                    "title": "Created",
+                    "format": "utc-millisec",
+                    "description": "The timestamp that the file was created."
+                },
+                "changed": {
+                    "type": "number",
+                    "title": "Changed",
+                    "format": "utc-millisec",
+                    "description": "The timestamp that the file was last changed."
+                }
+            },
+            "additionalProperties": false
+        },
+        "relationships": {
+            "description": "Entity relationships",
+            "properties": {
+                "uid": {
+                    "type": "object",
+                    "properties": {
+                        "data": {
+                            "type": "object",
+                            "required": [
+                                "type",
+                                "id"
+                            ],
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "title": "Referenced resource",
+                                    "enum": [
+                                        "user--user"
+                                    ]
+                                },
+                                "id": {
+                                    "type": "string",
+                                    "title": "Resource ID",
+                                    "format": "uuid",
+                                    "maxLength": 128
+                                },
+                                "meta": {
+                                    "type": "integer",
+                                    "title": "User ID"
+                                }
+                            }
+                        }
+                    },
+                    "title": "User ID",
+                    "links": [
+                        {
+                            "href": "{instanceHref}",
+                            "rel": "related",
+                            "targetMediaType": "application\/vnd.api+json",
+                            "targetSchema": {
+                                "$ref": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file\/resource\/relationships\/uid\/related\/schema"
+                            },
+                            "templatePointers": {
+                                "instanceHref": "\/links\/related\/href"
+                            },
+                            "templateRequired": [
+                                "instanceHref"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

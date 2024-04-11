@@ -1,0 +1,61 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "file--file",
+            "id": "51a32cb0-6b68-439e-b230-3eb6bd19562f",
+            "links": {
+                "self": {
+                    "href": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file\/51a32cb0-6b68-439e-b230-3eb6bd19562f"
+                }
+            },
+            "attributes": {
+                "drupal_internal__fid": 1,
+                "langcode": "en",
+                "filename": "1080.jpg",
+                "uri": {
+                    "value": "public:\/\/2024-04\/1080.jpg",
+                    "url": "\/sites\/default\/files\/2024-04\/1080.jpg"
+                },
+                "filemime": "image\/jpeg",
+                "filesize": 116659,
+                "status": true,
+                "created": "2024-04-08T22:02:44+00:00",
+                "changed": "2024-04-08T22:02:49+00:00"
+            },
+            "relationships": {
+                "uid": {
+                    "data": {
+                        "type": "user--user",
+                        "id": "46eba488-525e-4e59-b5cb-e542371b403b",
+                        "meta": {
+                            "drupal_internal__target_id": 1
+                        }
+                    },
+                    "links": {
+                        "related": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file\/51a32cb0-6b68-439e-b230-3eb6bd19562f\/uid"
+                        },
+                        "self": {
+                            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file\/51a32cb0-6b68-439e-b230-3eb6bd19562f\/relationships\/uid"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file"
+        }
+    }
+}

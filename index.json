@@ -1,0 +1,106 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": [],
+    "meta": {
+        "links": {
+            "me": {
+                "meta": {
+                    "id": "46eba488-525e-4e59-b5cb-e542371b403b"
+                },
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user\/46eba488-525e-4e59-b5cb-e542371b403b"
+            }
+        }
+    },
+    "links": {
+        "action--action": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/action\/action"
+        },
+        "base_field_override--base_field_override": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/base_field_override\/base_field_override"
+        },
+        "block--block": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/block\/block"
+        },
+        "date_format--date_format": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/date_format\/date_format"
+        },
+        "entity_browser--entity_browser": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_browser\/entity_browser"
+        },
+        "entity_form_display--entity_form_display": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_display\/entity_form_display"
+        },
+        "entity_form_mode--entity_form_mode": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_form_mode\/entity_form_mode"
+        },
+        "entity_view_display--entity_view_display": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_display\/entity_view_display"
+        },
+        "entity_view_mode--entity_view_mode": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/entity_view_mode\/entity_view_mode"
+        },
+        "field_config--field_config": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_config\/field_config"
+        },
+        "field_storage_config--field_storage_config": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/field_storage_config\/field_storage_config"
+        },
+        "file--file": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/file\/file"
+        },
+        "filter_format--filter_format": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/filter_format\/filter_format"
+        },
+        "image_style--image_style": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/image_style\/image_style"
+        },
+        "jsonapi_resource_config--jsonapi_resource_config": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/jsonapi_resource_config\/jsonapi_resource_config"
+        },
+        "media--hero_image": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image"
+        },
+        "media_type--media_type": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media_type\/media_type"
+        },
+        "menu--menu": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/menu\/menu"
+        },
+        "node--blog": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node\/blog"
+        },
+        "node_type--node_type": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/node_type\/node_type"
+        },
+        "path_alias--path_alias": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/path_alias\/path_alias"
+        },
+        "pathauto_pattern--pathauto_pattern": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/pathauto_pattern\/pathauto_pattern"
+        },
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi"
+        },
+        "user--user": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user\/user"
+        },
+        "user_role--user_role": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/user_role\/user_role"
+        },
+        "view--view": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/view\/view"
+        },
+        "workflow--workflow": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/workflow\/workflow"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": null,
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/revision_user?resourceVersion=id%3A1"
+        }
+    }
+}

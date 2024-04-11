@@ -1,0 +1,84 @@
+{
+    "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+    "$id": "https:\/\/isobar-playground.github.io\/jsonapi\/filter_format\/filter_format\/resource\/schema",
+    "title": "Text format",
+    "allOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "$ref": "#\/definitions\/type"
+                },
+                "attributes": {
+                    "$ref": "#\/definitions\/attributes"
+                }
+            }
+        },
+        {
+            "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/resource"
+        }
+    ],
+    "definitions": {
+        "type": {
+            "const": "filter_format--filter_format"
+        },
+        "attributes": {
+            "properties": {
+                "drupal_internal__format": {
+                    "title": "drupal_internal__format"
+                },
+                "langcode": {
+                    "title": "langcode"
+                },
+                "status": {
+                    "type": "boolean",
+                    "title": "status"
+                },
+                "dependencies": {
+                    "title": "dependencies"
+                },
+                "third_party_settings": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "third_party_settings": {
+                                "title": "third_party_settings"
+                            }
+                        }
+                    }
+                },
+                "name": {
+                    "title": "name"
+                },
+                "weight": {
+                    "type": "integer",
+                    "title": "weight"
+                },
+                "roles": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "roles": {
+                                "type": "string",
+                                "title": "roles"
+                            }
+                        }
+                    }
+                },
+                "filters": {
+                    "type": "array",
+                    "items": {
+                        "properties": {
+                            "filters": {
+                                "title": "filters"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "Entity attributes",
+            "type": "object",
+            "additionalProperties": false
+        }
+    }
+}

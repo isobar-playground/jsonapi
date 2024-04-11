@@ -1,0 +1,133 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "https:\/\/jsonapi.org\/format\/1.0\/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "media--hero_image",
+        "id": "c77ed973-d09f-480c-91a5-d6a21fae7b52",
+        "links": {
+            "self": {
+                "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52?resourceVersion=id%3A1"
+            }
+        },
+        "attributes": {
+            "drupal_internal__mid": 1,
+            "drupal_internal__vid": 1,
+            "langcode": "en",
+            "revision_created": "2024-04-08T22:02:44+00:00",
+            "revision_log_message": null,
+            "status": true,
+            "name": "Cat",
+            "created": "2024-04-08T22:02:32+00:00",
+            "changed": "2024-04-08T22:02:49+00:00",
+            "default_langcode": true,
+            "revision_translation_affected": true,
+            "path": {
+                "alias": null,
+                "pid": null,
+                "langcode": "en"
+            }
+        },
+        "relationships": {
+            "bundle": {
+                "data": {
+                    "type": "media_type--media_type",
+                    "id": "4810ca03-caf6-489e-aa44-99166c2127b1",
+                    "meta": {
+                        "drupal_internal__target_id": "hero_image"
+                    }
+                },
+                "links": {
+                    "related": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/bundle?resourceVersion=id%3A1"
+                    },
+                    "self": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/relationships\/bundle?resourceVersion=id%3A1"
+                    }
+                }
+            },
+            "revision_user": {
+                "data": null,
+                "links": {
+                    "related": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/revision_user?resourceVersion=id%3A1"
+                    },
+                    "self": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/relationships\/revision_user?resourceVersion=id%3A1"
+                    }
+                }
+            },
+            "uid": {
+                "data": {
+                    "type": "user--user",
+                    "id": "46eba488-525e-4e59-b5cb-e542371b403b",
+                    "meta": {
+                        "drupal_internal__target_id": 1
+                    }
+                },
+                "links": {
+                    "related": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/uid?resourceVersion=id%3A1"
+                    },
+                    "self": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/relationships\/uid?resourceVersion=id%3A1"
+                    }
+                }
+            },
+            "thumbnail": {
+                "data": {
+                    "type": "file--file",
+                    "id": "51a32cb0-6b68-439e-b230-3eb6bd19562f",
+                    "meta": {
+                        "alt": "A cat",
+                        "title": null,
+                        "width": 1920,
+                        "height": 1080,
+                        "drupal_internal__target_id": 1
+                    }
+                },
+                "links": {
+                    "related": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/thumbnail?resourceVersion=id%3A1"
+                    },
+                    "self": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/relationships\/thumbnail?resourceVersion=id%3A1"
+                    }
+                }
+            },
+            "field_media_image": {
+                "data": {
+                    "type": "file--file",
+                    "id": "51a32cb0-6b68-439e-b230-3eb6bd19562f",
+                    "meta": {
+                        "alt": "A cat",
+                        "title": "",
+                        "width": 1920,
+                        "height": 1080,
+                        "drupal_internal__target_id": 1
+                    }
+                },
+                "links": {
+                    "related": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/field_media_image?resourceVersion=id%3A1"
+                    },
+                    "self": {
+                        "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52\/relationships\/field_media_image?resourceVersion=id%3A1"
+                    }
+                }
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https:\/\/isobar-playground.github.io\/jsonapi\/media\/hero_image\/c77ed973-d09f-480c-91a5-d6a21fae7b52?resourceVersion=id%3A1"
+        }
+    }
+}
